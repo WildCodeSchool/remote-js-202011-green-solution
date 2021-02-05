@@ -2,7 +2,7 @@ import './App.css';
 import Aboutus from "./components/Aboutus";
 import BurgerMenu from './components/BurgerMenu.js';
 import Calculator from './components/Calculator';
-import Coordonnées from './components/Coordonnées'
+import Coordonnées from './components/Coordonnées';
 import Footer from './components/Footer';
 import Homepage from "./components/Homepage";
 import React from "react";

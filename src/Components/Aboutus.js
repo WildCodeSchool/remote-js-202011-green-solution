@@ -1,8 +1,6 @@
 import React from "react";
-import Coordonnées from './Coordonnées';
 import Equipe from './Equipe';
 import Info from './Info';
-import MailForm from './MailForm';
 import Objectif from './Objectif';
 import Titre from './Titre';
 import '../App.css';
