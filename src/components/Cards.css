@@ -1,11 +1,14 @@
+
 .solutions-cards{
     font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
     align-items: center;
-    min-width: 250px;
+    justify-content: space-between;
+    max-width: 330px;
     width: 100%;
     padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 .solutions-vertClair{
     background: #B7E4C7;
@@ -20,7 +23,6 @@
     padding: 1em;
 }
 
-/* CSS par image */
 .green-truck{
     max-width: 250px;
 }
@@ -38,8 +40,8 @@
 }
 
 
-/* Medias Queries */
-@media (min-width: 1100px){
+
+/* @media (min-width: 1100px){
     .solutions-texte{
         height: 350px;
     }
@@ -54,5 +56,15 @@
     }
     .logo-Objectif-CO2{
         max-width: 250px;
+    }
+} */
+@media screen and (max-width : 1320px){
+    .solutions-cards{
+        max-width: 40%;
+    }
+}
+@media screen and (max-width : 765px){
+    .solutions-cards{
+        max-width: 100% !important;
     }
 }

@@ -20,17 +20,17 @@ const socialLinks = [
 ]
 
 const Footer = () => {
-    return <div className="footer">
+    return <footer className="footer">
        <div className="footer-container">
-            <a class="footer-navlink" href="#"> mentions légales</a>
+            <a className="footer-navlink" href="#"> mentions légales</a>
                 <div className="footer-container-social-link">
                 {socialLinks.map((socialLink, i) => 
                         <a className="footer-social-link-bg" href={socialLink.link} target={socialLink.target}>{socialLink.icon}</a>
                     )}
                 </div>
-            <a class="footer-navlink" href="#"> contact</a>
+            <a className="footer-navlink" href="#"> contact</a>
        </div>
-    </div>
+    </footer>
 }
 
 export default Footer
